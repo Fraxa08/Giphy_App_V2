@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.scss";
-import Header from "./components/Header";
-import SearchGif from "./utils/SearchGif";
+import Header from "./components/Header/Header";
+import SearchGif from "./components/SearchGif/SearchGif";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
       <SearchGif />
     </div>
